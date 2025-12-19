@@ -1,0 +1,7 @@
+site_name: 'Documentation'
+site_description: 'Documentation for onboarding health check API'
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+plugins:
+  - techdocs-core
