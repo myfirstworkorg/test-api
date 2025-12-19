@@ -1,6 +1,6 @@
 # Getting Started
 
-This guide will help you get up and running with **{{ site_name }}**.
+This guide will help you get up and running with **Onboarding Services**.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
