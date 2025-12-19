@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-awesome-api
-  description: A sample API for demonstration purposes
+  name: health-check-api
+  description: A health check API for onboarding
   annotations:
     # Optional: Link to the GitHub repo for easy access
-    github.com/project-slug: my-org/my-api-repo
+    github.com/project-slug: myfirstworkorg/test-api
 spec:
   type: openapi # Options: openapi, asyncapi, graphql, grpc
   lifecycle: production
-  owner: group:my-team
+  owner: group:iscatalogue
   # Use $text to import the external OpenAPI file relative to this yaml
   definition:
     $text: ./api-specs/openapi.yaml
