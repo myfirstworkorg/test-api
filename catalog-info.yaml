@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-awesome-api
+  description: A sample API for demonstration purposes
+  annotations:
+    # Optional: Link to the GitHub repo for easy access
+    github.com/project-slug: my-org/my-api-repo
+spec:
+  type: openapi # Options: openapi, asyncapi, graphql, grpc
+  lifecycle: production
+  owner: group:my-team
+  # Use $text to import the external OpenAPI file relative to this yaml
+  definition:
+    $text: ./api-specs/openapi.yaml
