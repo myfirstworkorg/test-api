@@ -6,6 +6,7 @@ metadata:
   annotations:
     # Optional: Link to the GitHub repo for easy access
     github.com/project-slug: myfirstworkorg/test-api
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: openapi # Options: openapi, asyncapi, graphql, grpc
   lifecycle: production
